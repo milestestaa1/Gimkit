@@ -1,0 +1,22 @@
+/* Import Tailwind via CDN or npm install in your project */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0a0a0c; /* Exact GimKit Dark Mode Color */
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom Scrollbar to match their UI */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1f2937; 
+}
+::-webkit-scrollbar-thumb {
+  background: #4b5563; 
+  border-radius: 4px;
+}
